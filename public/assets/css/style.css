@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.catalog {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.product-card__image {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.product-card__name {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.product-card__price {
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+.product-card__btn {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+}
+
+.category-card {
+    display: flex;
+    align-items: center;
+    gap: 2;
+}
